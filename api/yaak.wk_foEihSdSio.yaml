@@ -1,0 +1,10 @@
+type: workspace
+model: workspace
+id: wk_foEihSdSio
+createdAt: 2025-04-30T15:22:08.044385400
+updatedAt: 2025-04-30T15:22:08.044385700
+name: GO_FEM
+description: ''
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
