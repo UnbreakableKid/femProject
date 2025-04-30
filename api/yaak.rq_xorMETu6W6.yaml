@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_xorMETu6W6
+createdAt: 2025-04-30T16:18:36.648309600
+updatedAt: 2025-04-30T16:18:49.467529200
+workspaceId: wk_foEihSdSio
+folderId: fl_wGhAMNCXNt
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: -0.0001
+url: ${[ base_path ]}/workouts/2
+urlParameters: []
