@@ -1,0 +1,23 @@
+type: http_request
+model: http_request
+id: rq_FbUtdPaumJ
+createdAt: 2025-05-06T17:20:21.733832700
+updatedAt: 2025-05-06T17:21:09.266211600
+workspaceId: wk_foEihSdSio
+folderId: fl_wGhAMNCXNt
+authentication: {}
+authenticationType: null
+body:
+  text: ''
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6Bnii6dIjg
+method: DELETE
+name: ''
+sortPriority: 0.0029000002
+url: ${[ base_path ]}/workouts/3
+urlParameters: []
