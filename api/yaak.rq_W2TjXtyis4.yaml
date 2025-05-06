@@ -2,15 +2,44 @@ type: http_request
 model: http_request
 id: rq_W2TjXtyis4
 createdAt: 2025-04-30T16:19:06.104784700
-updatedAt: 2025-04-30T16:19:13.446973400
+updatedAt: 2025-05-06T16:22:42.744879500
 workspaceId: wk_foEihSdSio
 folderId: fl_wGhAMNCXNt
 authentication: {}
 authenticationType: null
-body: {}
-bodyType: null
+body:
+  text: |-
+    {
+      "title": "Morning Strength Training",
+      "description": "Full body strength training session",
+      "duration_minutes": 60,
+      "calories_burned": 500,
+      "entries": [
+        {
+          "exercise_name": "Squats",
+          "sets": 3,
+          "reps": 12,
+          "weight": 100.5,
+          "notes": "Felt strong today",
+          "order_index": 1
+        },
+        {
+          "exercise_name": "Bench Press",
+          "sets": 4,
+          "reps": 10,
+          "weight": 80.0,
+          "notes": "Increase weight next session",
+          "order_index": 2
+        }
+      ]
+    }
+bodyType: application/json
 description: ''
-headers: []
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6Bnii6dIjg
 method: POST
 name: ''
 sortPriority: 0.00090000004
