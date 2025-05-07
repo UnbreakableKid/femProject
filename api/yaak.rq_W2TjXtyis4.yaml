@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_W2TjXtyis4
 createdAt: 2025-04-30T16:19:06.104784700
-updatedAt: 2025-05-06T16:22:42.744879500
+updatedAt: 2025-05-07T16:21:56.265623900
 workspaceId: wk_foEihSdSio
 folderId: fl_wGhAMNCXNt
 authentication: {}
@@ -20,6 +20,7 @@ body:
           "sets": 3,
           "reps": 12,
           "weight": 100.5,
+          "duration_seconds": 4,
           "notes": "Felt strong today",
           "order_index": 1
         },
