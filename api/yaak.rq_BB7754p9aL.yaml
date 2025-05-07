@@ -1,0 +1,29 @@
+type: http_request
+model: http_request
+id: rq_BB7754p9aL
+createdAt: 2025-05-07T17:20:52.159366100
+updatedAt: 2025-05-07T17:25:34.246509400
+workspaceId: wk_foEihSdSio
+folderId: fl_mohbh2xPCz
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "password": "securepassword123",
+      "bio": "Fitness enthusiast and software developer"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6Bnii6dIjg
+method: POST
+name: ''
+sortPriority: 0.0
+url: ${[ base_path ]}/users
+urlParameters: []

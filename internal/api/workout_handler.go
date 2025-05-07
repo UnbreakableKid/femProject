@@ -30,6 +30,7 @@ func (wh *WorkoutHandler) HandleGetWorkoutByID(w http.ResponseWriter, r *http.Re
 		utils.WriteJSON(w, http.StatusBadRequest, utils.Envelope{
 			"error": "invalid workout id",
 		})
+		return
 	}
 
 	workout, err := wh.workoutStore.GetWorkoutByID(workoutID)
