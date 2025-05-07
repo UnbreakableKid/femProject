@@ -15,12 +15,12 @@ CREATE TABLE IF NOT EXISTS workout_entries (
         TIME ZONE DEFAULT CURRENT_TIMESTAMP,
         CONSTRAINT valid_workout_entry CHECK (
             (
-                reps is not null
-                or duration_seconds is not null
+                reps IS NOT NULL
+                OR duration_seconds IS NOT NULL
             )
-            and (
-                reps is not null
-                or duration_seconds is not null
+            AND (
+                reps IS NULL
+                OR duration_seconds IS NULL
             )
         )
 )
