@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_fq7DmTs43f
+createdAt: 2025-05-07T18:07:28.024238200
+updatedAt: 2025-05-07T18:08:01.957066100
+workspaceId: wk_foEihSdSio
+folderId: fl_PV2roaoarL
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "username": "jack_doe",
+        "password": "securepassword123"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: NIEaeQdsXn
+method: POST
+name: ''
+sortPriority: -0.0001
+url: ${[ base_path ]}/tokens/authentication
+urlParameters: []

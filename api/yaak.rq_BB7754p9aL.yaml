@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_BB7754p9aL
 createdAt: 2025-05-07T17:20:52.159366100
-updatedAt: 2025-05-07T17:25:34.246509400
+updatedAt: 2025-05-07T18:06:52.123982600
 workspaceId: wk_foEihSdSio
 folderId: fl_mohbh2xPCz
 authentication: {}
@@ -10,8 +10,8 @@ authenticationType: null
 body:
   text: |-
     {
-      "username": "john_doe",
-      "email": "john.doe@example.com",
+      "username": "jack_doe",
+      "email": "jack.doe@example.com",
       "password": "securepassword123",
       "bio": "Fitness enthusiast and software developer"
     }
